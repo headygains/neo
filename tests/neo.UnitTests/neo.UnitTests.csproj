@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\neo\neo.csproj" />
+    <ProjectReference Include="..\..\src\neo\raild.csproj" />
   </ItemGroup>
 
   <ItemGroup>

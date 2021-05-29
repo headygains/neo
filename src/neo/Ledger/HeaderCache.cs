@@ -61,8 +61,7 @@ namespace Neo.Ledger
                 readerWriterLock.EnterReadLock();
                 try
                 {
-                    if (headers.Count == 0) return null;
-                    return headers[^1];
+                    return headers.Count == 0 ? null : headers[^1];
                 }
                 finally
                 {
